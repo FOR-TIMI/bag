@@ -1,0 +1,31 @@
+.bag__page__container {
+  max-width: 700px;
+  margin: 0 auto;
+
+  .bag__page__text-container {
+    padding: 24px 0;
+
+    .title {
+      margin: 0 0 10px;
+      font-size: 40px;
+      line-height: 48px;
+    }
+  }
+
+  .popover__bag-container {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 768px) {
+    max-width: 90%;
+
+    .popover__bag-container {
+      padding-left: 0;
+      padding-right: 0;
+
+      .bag-items-wrapper {
+        padding: 0 12px;
+      }
+    }
+  }
+}
